@@ -1,0 +1,26 @@
+PATH
+  remote: .
+  specs:
+    cisco-deviot (0.1.0)
+      mqtt (>= 0.4.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mqtt (0.4.0)
+    power_assert (0.2.6)
+    rake (10.4.2)
+    test-unit (3.1.5)
+      power_assert
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  cisco-deviot!
+  rake
+  test-unit
+
+BUNDLED WITH
+   1.13.6
